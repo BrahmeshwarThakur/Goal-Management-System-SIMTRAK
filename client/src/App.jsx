@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import LoginPage from './pages/loginpage.jsx';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      {/* Other components and routes */}
+      <LoginPage />
+    </div>
+  );
+};
 
-export default App
+export default App;
